@@ -1,15 +1,13 @@
-brothers_names = [
-    "Aapo",
-    "Eero",
-    "Juhani",
-    "Lauri",
-    "Simeoni",
-    "Timo",
-    "Tuomas",
-]
-
-
 def seven_brothers():
+    brothers_names = [
+        "Aapo",
+        "Eero",
+        "Juhani",
+        "Lauri",
+        "Simeoni",
+        "Timo",
+        "Tuomas",
+    ]
     brothers_names.sort()
     for name in brothers_names:
         print(name)
